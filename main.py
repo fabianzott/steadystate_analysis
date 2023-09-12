@@ -6,8 +6,8 @@ import os
 
 def read_excel_file(file_path):
     """
-    Read the first column of an excel file and return a list of concentrations and the name from the first cell.
-
+    Read the first column with headerof an excel file and return a list of concentrations and the name from the first cell.
+    
     Parameters:
     file_path (str): The path to the excel file.
 
